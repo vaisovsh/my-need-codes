@@ -1,0 +1,3 @@
+intent2.putExtra("count", counter);
+Intent myintent = new Intent(this, Start.class);
+this.getIntent().getIntExtra("count", 1500)
